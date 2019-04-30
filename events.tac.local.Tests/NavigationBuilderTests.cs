@@ -90,7 +90,7 @@ namespace events.tac.local.Tests
                 );
         }
 
-        [Fact]
+        [Fact(Skip = "optional exercise")]
         private void DoesNotTraverseNonAncestors()
         {
             IItem climbing = _sitecore.content.home.events.climbing.Item;
